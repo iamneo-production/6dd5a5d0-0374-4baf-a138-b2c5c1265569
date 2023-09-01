@@ -1,0 +1,51 @@
+/* src/components/Login.css */
+
+.auth-container {
+  width: 300px;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  padding: 20px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.auth-container input {
+  width: 100%;
+
+  padding: 10px;
+
+  margin: 10px 0;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.auth-container button {
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: #007bff;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.switch-link {
+  color: #007bff;
+
+  cursor: pointer;
+}

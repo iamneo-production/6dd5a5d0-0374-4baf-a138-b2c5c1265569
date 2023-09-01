@@ -1,0 +1,111 @@
+.auth-container {
+  background-color: rgb(239, 239, 239);
+
+  width: 35%;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  padding: 30px 47px 30px 30px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.auth-container h2 {
+  font-size: 24px;
+
+  margin-bottom: 20px;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+  width: 100%;
+
+  max-width: 100%; /* Add this line to ensure the inputs don't exceed the container */
+
+  padding: 10px;
+
+  margin: 5px 0; /* Adjusted margin for spacing */
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.auth-container input[type="text"] {
+  margin-right: 10px;
+}
+
+.auth-container input[type="password"].weak {
+  border-color: #ff6347;
+}
+
+.password-strength {
+  font-size: 12px;
+
+  color: #888;
+
+  margin: 5px 0;
+}
+
+.password-strength.strong {
+  color: #008000;
+}
+
+.auth-container button {
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: #007bff;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.switch-link {
+  color: #007bff;
+
+  cursor: pointer;
+}
+
+/* Style the address block */
+
+.address-container {
+  text-align: left;
+
+  margin-top: 10px;
+}
+
+.address-container label {
+  font-weight: bold;
+
+  display: block;
+
+  margin-bottom: 5px;
+}
+
+.address-container input[type="text"] {
+  width: 100%; /* Set the width to 100% for address fields */
+
+  padding: 10px;
+
+  margin: 5px 0;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+/* Add any additional styling you need here */

@@ -1,0 +1,92 @@
+.pie-chart {
+    max-width: 400px; /* Adjust the width as needed */
+  
+    margin: 0 auto; /* Center the chart horizontally */
+  }
+  
+  /* Style the chart title */
+  
+  .pie-chart h2 {
+    text-align: center;
+  
+    font-size: 1.5rem;
+  
+    margin-bottom: 20px;
+  }
+  
+  /* Style the chart container */
+  
+  .pie-chart .chart-container {
+    position: relative;
+  
+    padding: 20px;
+  
+    border-radius: 5px;
+  
+    background-color: #f0f0f0;
+  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the legend */
+  
+  .pie-chart .legend {
+    list-style-type: none;
+  
+    padding: 0;
+  }
+  
+  /* Style legend items */
+  
+  .pie-chart .legend li {
+    display: flex;
+  
+    align-items: center;
+  
+    margin-bottom: 8px;
+  }
+  
+  /* Style legend color box */
+  
+  .pie-chart .legend .color-box {
+    width: 20px;
+  
+    height: 20px;
+  
+    margin-right: 10px;
+  
+    border-radius: 50%;
+  }
+  
+  /* Style legend labels */
+  
+  .pie-chart .legend .label {
+    font-size: 1rem;
+  }
+  
+  /* Style the tooltip (if used) */
+  
+  .pie-chart .tooltip {
+    position: absolute;
+  
+    background-color: rgba(0, 0, 0, 0.8);
+  
+    color: white;
+  
+    padding: 5px;
+  
+    border-radius: 5px;
+  
+    pointer-events: none;
+  
+    opacity: 0;
+  
+    transition: opacity 0.3s;
+  }
+  
+  /* Show the tooltip on hover */
+  
+  .pie-chart .chart-container:hover .tooltip {
+    opacity: 1;
+  }
+  

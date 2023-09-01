@@ -1,0 +1,234 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "User1",
+        "role": "customer",
+        "email": "customer1@gmail.com",
+        "password": "customer1",
+        "accountNo": "70001",
+        "accountType": "Savings",
+        "phoneNo": "7013322",
+        "debitCardNo": "12345",
+        "transactions": [],
+        "suspiciousTransactions": [],
+        "reports": [],
+        "domestic": {
+          "online": true,
+          "pos": true,
+          "tapnpay": false,
+          "atm": true
+        },
+        "international": {
+          "online": true,
+          "pos": true,
+          "tapnpay": false,
+          "atm": false
+        },
+        "card": {
+          "card": 1234567890,
+          "pin": 1234,
+          "freeze": true
+        }
+      },
+      {
+        "id": 2,
+        "name": "User2",
+        "role": "customer",
+        "email": "c2@gmail.com",
+        "password": "c2",
+        "accountNo": "8106702259",
+        "accountType": "Savings",
+        "phoneNo": "9866672113",
+        "debitCardNo": "567894323801",
+        "balance": "50000",
+        "transactions": [],
+        "suspiciousTransactions": [],
+        "domestic": {
+          "online": true,
+          "pos": true,
+          "tapnpay": false,
+          "atm": true
+        },
+        "international": {
+          "online": true,
+          "pos": true,
+          "tapnpay": false,
+          "atm": false
+        },
+        "card": {
+          "card": 76734567890,
+          "name": "User2",
+          "cvv": 667,
+          "expiry": "21/30",
+          "pin": 1234,
+          "freeze": false
+        }
+      },
+      {
+        "id": 3,
+        "name": "User1",
+        "role": "customer",
+        "email": "c3@gmail.com",
+        "password": "c3",
+        "accountNo": "7013322955",
+        "accountType": "Savings",
+        "phoneNo": "7013322944",
+        "debitCardNo": "123452353782",
+        "balance": 79000,
+        "transactions": [
+          {
+            "to": "John Doe",
+            "from": "Rajsekhar",
+            "amount": 150.75,
+            "date": "2023-08-29",
+            "time": "10:14pm",
+            "type": "ATM"
+          },
+          {
+            "to": "Jane Smith",
+            "from": "Rajsekhar",
+            "amount": -50.25,
+            "date": "2023-08-28",
+            "time": "10:14pm",
+            "type": "TAPnPAY"
+          },
+          {
+            "to": "edfgws",
+            "from": "Rajsekhar",
+            "amount": -50.25,
+            "date": "2023-08-28",
+            "time": "10:14pm",
+            "type": "TAPnPAY"
+          },
+          {
+            "to": "dsfbgghsag",
+            "from": "Rajsekhar",
+            "amount": -50.25,
+            "date": "2023-08-27",
+            "time": "10:14pm",
+            "type": "ONLINE"
+          },
+          {
+            "to": "27",
+            "from": "Rajsekhar",
+            "amount": 200,
+            "date": "2023-08-27",
+            "time": "10:14pm",
+            "type": "POC"
+          },
+          {
+            "to": "Alice Johnson",
+            "from": "Rajsekhar",
+            "amount": 200,
+            "date": "2023-08-26",
+            "time": "10:14pm",
+            "type": "TAPnPAY"
+          },
+          {
+            "to": "25",
+            "from": "Rajsekhar",
+            "amount": 200,
+            "date": "2023-08-25",
+            "time": "10:14pm",
+            "type": "INTERNATIONAL"
+          },
+          {
+            "to": "22",
+            "from": "Rajsekhar",
+            "amount": 200,
+            "date": "2023-08-22",
+            "time": "10:14pm",
+            "type": "ATM"
+          },
+          {
+            "to": "222",
+            "from": "Rajsekhar",
+            "amount": 200,
+            "date": "2023-08-22",
+            "time": "10:14pm",
+            "type": "POC"
+          },
+          {
+            "to": "PETROL",
+            "from": "User1",
+            "amount": -1000,
+            "date": "2023-09-01",
+            "time": "01:13pm",
+            "type": "TAPnPAY"
+          }
+        ],
+        "suspiciousTransactions": [
+          {
+            "to": "PETROL",
+            "from": "User1",
+            "amount": -1000,
+            "date": "2023-09-01",
+            "time": "01:14pm",
+            "type": "TAPnPAY"
+          }
+        ],
+        "domestic": {
+          "online": true,
+          "pos": true,
+          "tapnpay": true,
+          "atm": true
+        },
+        "international": {
+          "online": true,
+          "pos": true,
+          "tapnpay": true,
+          "atm": false
+        },
+        "card": {
+          "card": 1234567890,
+          "pin": "4567",
+          "freeze": false
+        }
+      },
+      {
+        "id": 4,
+        "name": "Manager",
+        "role": "manager",
+        "email": "manager@gmail.com",
+        "password": "manager"
+      },
+      {
+        "id": 4,
+        "name": "Staff",
+        "role": "staff",
+        "email": "staff@gmail.com",
+        "password": "staff"
+      }
+    ],
+    "reports": [
+      {
+        "comments": "Hello there! this is a comment.",
+        "accountNumber": "9440965436",
+        "transactionId": "1234567890c",
+        "date": "2023-08-30",
+        "additionalInfo": "ttttdbfjbuhuhuhuhiuwhefuihrufhuiebehber erufbg efgb befhgbh ebgh b berfbg",
+        "status": "finished",
+        "id": 1,
+        "comment": "submitted"
+      },
+      {
+        "comments": "Hello World. WOW IT WORKED.",
+        "accountNumber": "7013322955",
+        "transactionId": "1234567890a",
+        "date": "2023-08-10",
+        "additionalInfo": "ok",
+        "status": "submitted",
+        "id": 2
+      },
+      {
+        "id": 3,
+        "comments": "asdasdasda",
+        "accountNumber": "7013322955",
+        "transactionId": "1234567890B",
+        "date": "2023-08-19",
+        "additionalInfo": "ok",
+        "status": "submitted"
+      }
+    ]
+  }

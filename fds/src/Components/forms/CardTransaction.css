@@ -1,0 +1,193 @@
+/* Transaction.css*/
+#exp{
+  margin-right: 25px;
+}
+#cv{
+  margin-left: 25px;
+}
+
+.transactional-page {
+  margin-top: 10%;
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  min-height: 100vh;
+
+  background-size: cover;
+
+  font-family: Arial, sans-serif;
+}
+
+.transactional-form {
+  text-align: center;
+
+  width: 35%;
+
+  padding: 20px;
+
+  background-color: rgb(238, 238, 238);
+
+  border-radius: 5px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  animation-duration: 0.5s;
+
+  animation-timing-function: ease-in-out;
+
+  animation-name: fadeInForm;
+}
+
+@keyframes fadeInForm {
+  0% {
+    opacity: 0;
+
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+.transactional-form h1 {
+  margin-bottom: 15px;
+
+  text-align: center;
+
+  font-size: 1.2rem;
+}
+
+.transactional-form input {
+  width: 100%;
+
+  padding: 10px;
+
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.transactional-form .expiration-cvv {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+
+  align-items: center;
+}
+
+.transactional-form .expiration-cvv input {
+  flex: 1;
+
+  padding: 10px;
+}
+
+.transactional-form button {
+  width: 30%;
+
+  padding: 10px;
+
+  background-color: #03960f;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 50px;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+
+  margin-left: 5px;
+}
+
+.transactional-form .clear-button {
+  background-color: #dc3545;
+
+  margin-top: 0;
+}
+
+.submission-text {
+  margin-top: 10px;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  animation-duration: 0.5s;
+
+  animation-timing-function: ease-in-out;
+
+  animation-name: fadeIn;
+}
+
+.submitted {
+  background-color: green;
+
+  color: white;
+
+  animation-name: fadeInSubmitted;
+}
+
+.failed {
+  background-color: red;
+
+  color: white;
+
+  animation-name: fadeInFailed;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInSubmitted {
+  0% {
+    opacity: 0;
+
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInFailed {
+  0% {
+    opacity: 0;
+
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}

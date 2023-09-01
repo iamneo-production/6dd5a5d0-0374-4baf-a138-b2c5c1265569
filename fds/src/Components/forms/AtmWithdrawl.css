@@ -1,0 +1,125 @@
+/* ATMWithdrawalForm.css */
+
+.atm-withdrawal-form-container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #fefefe;
+}
+
+.atm-withdrawal-form {
+  width: 35%;
+
+  padding: 20px;
+
+  background-color: #ffffff;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.withdrawal-header {
+  color: black;
+
+  margin-bottom: 15px;
+
+  text-align: center;
+
+  padding: 10px;
+
+  border-radius: 5px;
+}
+
+.withdrawal-header h2 {
+  margin: 0;
+
+  font-size: 1.2rem;
+}
+
+.atm-withdrawal-form input {
+  width: 94%;
+
+  padding: 10px;
+
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.atm-withdrawal-form button {
+  width: 99%;
+
+  padding: 10px;
+
+  background-color: #03960f;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.atm-withdrawal-form button.clear-button {
+  background-color: #dc3545;
+
+  margin-top: 10px;
+}
+
+.submission-message {
+  padding: 10px;
+
+  border-radius: 5px;
+
+  margin-top: 10px;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  animation-duration: 0.5s;
+
+  animation-timing-function: ease-in-out;
+}
+
+.success {
+  background-color: #4caf50;
+
+  color: white;
+
+  animation-name: fadeInSuccess;
+}
+
+.error {
+  background-color: #f44336;
+
+  color: white;
+
+  animation-name: fadeInError;
+}
+
+/* Animation */
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
